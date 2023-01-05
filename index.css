@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}
+
+table ,td ,th {
+    border: 2px solid greenyellow;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    background-color: greenyellow;
+}
+
+header h1 {
+    font: 400;
+    color: rgb(27, 88, 6);
+    font-style: normal;
+}
+
+nav {
+    margin-left: auto;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    color: rgb(27, 88, 6);
+    font-weight: 200;
+    margin: 10px;
+}
+
+/* OUTER SECTION */
+.outer-section {
+    display: flex;
+    height: calc(100vh - 120px);
+    flex-grow: 1 2 1;
+}
+
+/* INNER SECTION 1 */
+.inner-section-1 {
+    background-color: rgb(240, 241, 239);
+    width: 25%;
+}
+ .inner-section-1 ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.inner-section-1 ul li {
+    list-style-type: none;
+    background-color: rgb(228, 238, 228);
+    margin: 5px;
+}
+
+.inner-section-1 ul li a {
+    text-decoration: none;
+    color:rgb(27, 88, 6) ;
+    font-size: 25px;
+}
+
+
+/* INNER SECTION 2 */
+.inner-section-2 {
+    background-color: rgb(240, 241, 239);
+    width: 25%;
+    display: flex;
+   
+    flex-wrap: wrap;
+}
+
+main {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* FOOTER */
+footer {
+    height: 60px;
+    background-color: greenyellow;
+    color: rgb(27, 88, 6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
