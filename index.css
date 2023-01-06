@@ -88,6 +88,10 @@ nav ul li {
     flex-wrap: wrap;
 }
 
+.inner-section-2 img {
+    flex-grow: 1;
+}
+
 main {
     flex-grow: 2;
     display: flex;
